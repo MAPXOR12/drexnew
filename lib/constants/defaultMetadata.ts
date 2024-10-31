@@ -5,7 +5,7 @@ export const defaultMetadata: Metadata = {
     description:
         'The official website, blog, and dashboard for the multipurpose Discord utility bot, Auxdibot.',
     metadataBase: new URL(
-        process.env.NEXT_PUBLIC_URL
+        process.env.NEXT_PUBLIC_URL,
     ),
     icons: ['/logo.png', '/favicon.ico'],
     openGraph: {
